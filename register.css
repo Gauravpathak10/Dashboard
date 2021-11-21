@@ -1,0 +1,185 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: heebo, sans-serif;
+    /* overflow: hidden; */
+}
+
+.navbar-bg {
+    background-image: url(./Assets/register.2dd199e9.jpeg);
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-size: cover;
+    height: 150vh;
+}
+
+.navbar {
+    background: transparent;
+}
+
+.navbar-expand-lg .navbar-collapse {
+    justify-content: end;
+}
+
+.navbar>.container-fluid {
+    width: 80%;
+}
+
+.navbar a {
+    color: white;
+    /* background:transparent; */
+    font-family: heebo, sans-serif !important;
+}
+
+/* first-section */
+
+/* .A-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90%;
+}
+.A-2{
+    background: chartreuse;
+
+}
+
+.left-cont i{
+    font-size: 30px;
+} */
+
+.left-cont {
+    display: flex;
+    align-items: baseline;
+    margin: 5px;
+}
+
+.abc {
+    font-size: 20px;
+    text-align: center;
+}
+
+.abc i {
+    margin: 5px;
+    width: 41px;
+    text-align: center;
+    padding: 10px;
+}
+
+.label {
+    border-bottom: 1px solid black;
+    width: fit-content;
+    display: flex;
+    margin: auto;
+    /* margin: 5px; */
+    padding: 5px;
+}
+
+.label input {
+    width: 300px;
+    background: transparent;
+    border: none;
+}
+
+input:focus {
+    outline: none;
+}
+
+input[type="checkbox" i] {
+    width: 30px;
+    height: 16px;
+    margin: 5px;
+}
+
+.btn-btn-primary {
+    padding: 10px;
+    width: 100px;
+    margin: 5px;
+    /* padding-left: 5px;
+    padding-right: 5px; */
+    background: violet;
+    color: white;
+    font-size: 13px;
+    text-transform: capitalize;
+    border: none;
+    border-radius: 25px;
+}
+
+.fa-facebook {
+    background: violet;
+    border-radius: 20px;
+}
+.fa-twitter{
+    background: yellow;
+    border-radius: 20px;
+}
+.fa-pinterest{
+    background: turquoise;
+    border-radius: 20px;
+}
+
+.container {
+    /* width: max-content; */
+    width: 65%!important;
+    transform: translateY(40%);
+    padding: 10px;
+    border-radius: 10px;
+}
+.left-cont i{
+    font-size: x-large;
+    margin-right: 5px;
+}
+h2{
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+::placeholder{
+    text-transform: capitalize;
+    font-size: 15px;
+}
+h3{
+    font-size: 18px;
+    margin: 1px;
+}
+/* footer */
+footer{
+    background-image: url(./Assets/register.2dd199e9.jpeg);
+    background-size: cover;
+}
+
+footer ul {
+    list-style: none;
+    display: flex;
+}
+
+footer h6,ul {
+    color: white;
+    margin: 0px!important;
+}
+
+footer ul li {
+    margin: 5px;
+}
+
+footer a {
+    text-decoration: none;
+    color: rgb(250, 249, 249);
+}
+@media only screen and (max-width:320px) {
+    .container{
+        width: auto!important;
+        transform: none;
+    }
+    .label input{
+        width: auto!important;
+
+    }
+    .footer{
+        display: block!important;
+    }
+    .navbar-bg{
+        height: auto!important;
+    }
+    
+}

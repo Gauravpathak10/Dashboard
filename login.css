@@ -1,0 +1,92 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+   /* overflow: hidden; */
+}
+
+.navbar-bg {
+    background-image: url(./Assets/login.c8a507cf.jpeg);
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-size: cover;
+    height: 120vh;
+}
+   
+
+.navbar {
+    background: transparent;
+}
+
+.navbar-expand-lg .navbar-collapse {
+    justify-content: end;
+}
+
+.navbar>.container-fluid {
+    width: 80%;
+}
+
+.navbar a {
+    color: white;
+    /* background:transparent; */
+    font-family: heebo, sans-serif !important;
+}
+
+.icons {
+    background: #c01a8d;
+    width: 220px;
+    height: 111px;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    /* height: 77px; */
+    position: relative;
+    top: -25px;
+}
+
+.in-div {
+    border-bottom: 1px solid black;
+    padding: 20px;
+    margin: 5px;
+}
+.in-div i{
+    font-size: 20px;
+}
+
+form input {
+    width: 270px;
+    border: none;
+}
+a{
+    text-decoration: none;
+    color: blue;
+}
+
+input:focus {
+  outline: none;
+}
+.h-100 {
+    height: 75%!important;
+}
+/* footer */
+footer{
+    /* margin-top: -7%; */
+}
+footer ul {
+    list-style: none;
+    display: flex;
+}
+
+footer h6 {
+    color: white;
+}
+
+footer ul li {
+    margin: 5px;
+}
+
+footer a {
+    text-decoration: none;
+    color: rgb(250, 249, 249);
+}

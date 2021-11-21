@@ -1,0 +1,125 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-transform: capitalize;
+    box-sizing: border-box;
+    color: white;
+    font-family: heebo, sans-serif;
+}
+
+.navbar-bg {
+    background: url(./Assets/bg-pricing.b1a66687.jpeg), rgba(0,0,0,0.1);
+    background-size: cover;
+    height: 140vh;
+}
+@media screen  and (max-width:1110px) {
+
+    .navbar-bg {
+        background: url(./Assets/bg-pricing.b1a66687.jpeg), rgba(0,0,0,0.1);
+        background-size: cover;
+        height: 100%;
+    } 
+}
+
+.navbar-expand-lg .navbar-collapse {
+    justify-content: end;
+}
+
+.navbar>.container-fluid {
+    width: 80%;
+}
+
+.navbar a {
+    color: white;
+    font-family: heebo, sans-serif !important;
+}
+
+.act {
+    background-color: white;
+    border-radius: 5px;
+    color: #999;
+}
+.act h2{
+    color: #999!important;
+}
+.act h3{
+    color: #999!important;
+}
+
+.act i {
+    border: 1px solid palevioletred !important;
+    color: palevioletred !important;
+}
+
+.act button {
+    background-color: palevioletred !important;
+    color: white!important;
+}
+.navbar-toggler-icon{
+    color: white;
+    font-weight: bolder;
+}
+
+
+/* first-section */
+
+.child-flex {
+    width: 270px;
+    height: 400px;
+    text-align: center;
+    /* background-color: gainsboro; */
+    margin: 10px;
+    padding: 20px;
+    /* box-shadow: -2px 2px 4px 2px rgb(12 12 12);   */
+}
+
+.child-flex h3 {
+    font-size: 17px;
+    color: rgb(250, 244, 244);
+    font-family: cursive;
+}
+
+.child-flex h2 {
+    font-size: 19px;
+    margin: 5px;
+    color: rgb(253, 253, 253);
+}
+
+.child-flex i {
+    /* background: aqua; */
+    border: 1px solid white;
+    color: white;
+    font-size: 42px;
+    width: 104px;
+    margin: 3px;
+    padding: 31px;
+    border-radius: 53px;
+}
+
+.child-flex button {
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    background-color: whitesmoke;
+    color: #999;
+}
+
+/* footer */
+
+footer ul {
+    list-style: none;
+    display: flex;
+}
+
+footer h6 {
+    color: white;
+}
+
+footer ul li {
+    margin: 5px;
+}
+
+footer a {
+    text-decoration: none;
+    color: rgb(250, 249, 249);
+}
